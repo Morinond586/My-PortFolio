@@ -24,5 +24,29 @@
             "title": "webFlow Developement",
             "description": "Lorem ipsum dolor sit amet,consectur adipiscing elit."
         }
+    ],
+
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./img/blog.png",
+            "title": "Ahuse",
+            "description": "Lorem ipsum dolor sit amet,consectur adipiscing elit.",
+            "link": "View In Github"
+        },
+        {
+            "id": "2",
+            "src": "./img/chatify.png",
+            "title": "App Dasboard",
+            "description": "Lorem ipsum dolor sit amet,consectur adipiscing elit.",
+             "link": "View In Github"
+        },
+        {
+            "id": "3",
+            "src": "./img/codeEditor.png",
+            "title": "Easy Tental",
+            "description": "Lorem ipsum dolor sit amet,consectur adipiscing elit.",
+             "link": "View In Github"
+        } 
     ]
 }

@@ -325,3 +325,97 @@ h3 {
   font-weight: 700;
   line-height: 45px;
 }
+.skills--section--description {
+  color: var(--balck);
+  font-size: 21.3px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 32px;
+}
+
+/* Skills Styles Ends  */
+
+/* About Us  */
+.about--section {
+  display: grid;
+  padding: 133.3px 85.3px ;
+  align-items: center;
+  gap: 114.6px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: -20%; /*specifique pour moi*/
+}
+.about--section--img > img{
+  width: 100%;
+  height: 100%;
+}
+/* About Me Ends  */
+
+/* My Portfolio start  */
+.portfolio--section {
+  display: flex;
+  padding: 112px 85px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+}
+.portfolio--container-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.portfolio--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21.3px;
+}
+.portfolio--section--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  gap: 42.6px;
+  width: 100%;
+}
+.portflio--section--img {
+  border-radius: 8px;
+  width: 100%;
+}
+.portflio--section--img > img {
+  width: 100%;
+}
+.portflio--section--card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+  background: #fff;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.portfolio--section--card--content {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+.portfolio--section--title {
+  color: var(--heading-color);
+}
+.portfolio--link {
+  text-decoration: none;
+  display: flex;
+  gap: 16px;
+  border-bottom: 1.33px solid var(--primary);
+  padding-bottom: 10.6px;
+  font-weight: 600;
+}
+/* .portfolio--section--card:hover  .path {
+  stroke: #006b6a;
+} */
+/* Portfolio Ends  */
