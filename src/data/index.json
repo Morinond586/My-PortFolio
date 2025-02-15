@@ -1,0 +1,28 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "./webhook_48px.png",
+            "title": "Front-End",
+            "description": "Lorem ipsum dolor sit amet,consectur adipiscing elit."
+        },
+        {
+            "id": "2",
+            "src": "./rest_api_64px.png",
+            "title": "Back-End",
+            "description": "Lorem ipsum dolor sit amet,consectur adipiscing elit."
+        },
+        {
+            "id": "3",
+            "src": "./web_design_64px.png",
+            "title": "UI/UX disegn",
+            "description": "Lorem ipsum dolor sit amet,consectur adipiscing elit."
+        },
+        {
+            "id": "4",
+            "src": "./webflow_48px.png",
+            "title": "webFlow Developement",
+            "description": "Lorem ipsum dolor sit amet,consectur adipiscing elit."
+        }
+    ]
+}
