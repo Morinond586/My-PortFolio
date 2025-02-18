@@ -47,6 +47,33 @@
             "title": "Easy Tental",
             "description": "Lorem ipsum dolor sit amet,consectur adipiscing elit.",
              "link": "View In Github"
-        } 
+        }
+    ],
+
+    "testimonial": [
+        {
+            "id": "1",
+            "count": "1",
+            "src": "./img/avatar1.png",
+            "description": "Lorem ipsum dolor sit amet,consectur adipiscing elit.",
+            "author_name": "Daniel",
+            "author_designation": "Startup Founder"
+        },
+        {
+            "id": "2",
+            "count": "1",
+            "src": "./img/Avatar2.png",
+            "description": "Lorem ipsum dolor sit amet,consectur adipiscing elit.",
+            "author_name": "Daniel",
+            "author_designation": "Startup Founder"
+        },
+        {
+            "id": "3",
+            "count": "1",
+            "src": "./img/Avatar3.png",
+            "description": "Lorem ipsum dolor sit amet,consectur adipiscing elit.",
+            "author_name": "Daniel",
+            "author_designation": "Startup Founder"
+        }
     ]
 }
