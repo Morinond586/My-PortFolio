@@ -4,6 +4,8 @@ import Myskills from '../Homes/Myskills'
 import AboutMe from '../Homes/AboutMe'
 import MyPorfolio from '../Homes/MyPorfolio'
 import Testimonials from '../Homes/Testimonials'
+import ContactMe from '../Homes/ContactMe'
+import Footer from '../Homes/Footer'
 
 function Index() {
   return (
@@ -13,6 +15,8 @@ function Index() {
         <AboutMe />
         <MyPorfolio  />
         <Testimonials />
+        <ContactMe />
+        <Footer />
     </div>
   )
 }

@@ -2,6 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './App.css';
+import PageAdmin from './Administrateur/PageAdmin';
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Index from './Pages/HomeScreen/Index';
@@ -16,6 +17,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path='/' element={<Index />} ></Route>
+        <Route path='/admin' element={<PageAdmin />} ></Route>
         <Route path='*' element={<div>404 Not Found </div>} ></Route>
       </Routes>
     </div>

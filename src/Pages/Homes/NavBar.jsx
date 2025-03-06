@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useEffect, useState } from "react";
 import Logo from "../../img/code_48px.png";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function NavBar() {
   const [navActive, setNavActive] = useState(false);
@@ -71,10 +71,10 @@ function NavBar() {
             smooth={true}
             offset={-70}
             duration={500}
-            to="MyPortfolio"
+            to="myskills"
             className="navbar--content"
             >
-              Portfolio
+              Experiences
             </Link>
           </li>
           <li>
@@ -84,10 +84,10 @@ function NavBar() {
             smooth={true}
             offset={-70}
             duration={500}
-            to="AboutMe"
+            to="Myportfolio"
             className="navbar--content"
             >
-              About Me
+              Projets
             </Link>
           </li>
           <li>
@@ -97,10 +97,24 @@ function NavBar() {
             smooth={true}
             offset={-70}
             duration={500}
-            to="Testimonials"
+            to="aboutMe"
             className="navbar--content"
             >
-              Testimonials
+              A propos de moi
+            </Link>
+          </li>
+ 
+          <li>
+            <Link onClick={closeMenu}
+            activeClass="navbar--active-content"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            to="testimonial"
+            className="navbar--content"
+            >
+              competences
             </Link>
           </li>
         </ul>

@@ -9,16 +9,14 @@ export default function MyPorfolio() {
         <div className='portfolio--container-box'>
           <div className='portfolio--container'>
             <p className='sub--title'>
-              Recent Project
+              Projets
             </p>
             <h2 className='section--heading'>
-               My Portfolio
+               Projets recents
             </h2>
           </div>
           <div>
-            <button className='btns btn-github'>
-               <FaGithub />  Vist My Github
-            </button>
+               <a className='btns btn-github' href='https://github.com/morinond586/'><FaGithub />  Visit My Github </a>
           </div>
         </div>
         <div className='portfolio--section--container'>

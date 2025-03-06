@@ -1,5 +1,5 @@
 import React from 'react';
-import Aboutme from "../../img/AboutMe.png";
+import Aboutme from "../../img/milays.png";
 
 export default function AboutMe() {
     return (
@@ -10,23 +10,21 @@ export default function AboutMe() {
             <div className='hero--section--content--box about--section--content--box'>
                 <div className='hero--section--content'>
                   <p className='section--title'>
-                    About
+                    A Propos
                   </p>
-                  <h1 className='skills--section--heading'> About Me
+                  <h1 className='skills--section--heading'> A Propos de Moi
                   </h1>
                   <p className='hero--section-description'>
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                     Esse dolorem quas harum repudiandae eum impedit 
-                     porro totam architecto deleniti eaque! Eveniet
-                      exercitationem quisquam aspernatur ab, 
-                      dolore quos quo veritatis consequuntur.
+                     Après l'information de Developpemenet Intranet 
+                     Internet pendant trois ans au sein de 
+                     l'Ecole de manangement et d'innvation technologie,
+                     je suis pensionné sur le developpement logiciel.
                   </p>
                   <p className='hero--section-description'>
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                     Esse dolorem quas harum repudiandae eum impedit 
-                     porro totam architecto deleniti eaque! Eveniet
-                      exercitationem quisquam aspernatur ab, 
-                      dolore quos quo veritatis consequuntur.
+                    Et actuellement je cherche de travail sur le developpement web, 
+                    logiciel et application mobile en utilisant quelque langanges de programmation
+                    comme Javascript, PHP, Java et Python ainsi que je maitrise les framwork comme
+                    React, Next, Angular, React-Native, Laravel.
                   </p>
                 </div>
             </div>
